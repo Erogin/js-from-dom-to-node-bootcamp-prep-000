@@ -161,7 +161,7 @@ function twoSum(numbers, target) {
   }
 }
 */
-
+/*
 var pin = "3.4163"
 function validatePIN (pin) {
   if(Number(pin) === true){
@@ -172,3 +172,10 @@ function validatePIN (pin) {
 }
 
 console.log(validatePIN(pin));
+*/
+var str = casdkn;
+function isValid(str){
+ return !/[~`!#$%\^&*+=\-\[\]\\';,/{}|\\":<>\?]/g.test(str);
+}
+
+console.log(isValid(str));
