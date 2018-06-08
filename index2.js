@@ -162,10 +162,12 @@ function twoSum(numbers, target) {
 }
 */
 
-var pin = "324163"
+var pin = "3.4163"
 function validatePIN (pin) {
-  //return true or false
-  if(pin.length === 4 || pin.length === 6) {return true;}
+  if(Number(pin) === true){
+    if(pin.length === 4 || pin.length === 6) {return true;}
+    else{return false;}
+    }
   else{return false;}
 }
 
