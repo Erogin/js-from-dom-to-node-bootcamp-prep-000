@@ -173,7 +173,7 @@ function validatePIN (pin) {
 
 console.log(validatePIN(pin));
 */
-var str = casdkn;
+var str = "casdkn";
 function isValid(str){
  return !/[~`!#$%\^&*+=\-\[\]\\';,/{}|\\":<>\?]/g.test(str);
 }
